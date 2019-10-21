@@ -7,9 +7,9 @@ def run_guessing_game
   puts "Guess a number between 1 and 6"
   answer = gets.chomp
   
-  if answer.to_s == "exit"
+  if answer == "exit"
     "Goodbye!"
-  elsif answer == solution 
+  elsif answer == solution.to_s 
     puts "You guessed the correct number!"
   else
     "Sorry! You the computer guessed #{solution}."
