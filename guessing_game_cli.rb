@@ -1,7 +1,7 @@
 def run_guessing_game
   puts "run_guessing_game"
   
-  solution = rand(1..10)
+  solution = rand(1..6)
   puts solution
   
   puts "Guess a number between 1 and 6"
