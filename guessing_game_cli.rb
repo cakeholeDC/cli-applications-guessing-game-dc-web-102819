@@ -1,5 +1,5 @@
 def run_guessing_game
-  answer = rand(1..6)
+  answer = rand(2..5)
   
   puts "Guess a number between 1 and 6"
   input = gets.chomp
