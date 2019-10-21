@@ -1,6 +1,5 @@
 def run_guessing_game
   solution = rand(1..6)
-  #puts solution
   
   puts "Guess a number between 1 and 6"
   answer = gets.chomp
@@ -12,5 +11,4 @@ def run_guessing_game
   else
     "Sorry! You the computer guessed #{solution}."
   end
-  
 end
