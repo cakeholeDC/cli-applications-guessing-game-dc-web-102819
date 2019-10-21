@@ -1,14 +1,14 @@
 def run_guessing_game
-  solution = rand(1..6)
+  answer = rand(1..6)
   
   puts "Guess a number between 1 and 6"
-  answer = gets.chomp
+  input = gets.chomp
   
-  if answer == solution.to_s 
+  if input == answer.to_s 
     puts "You guessed the correct number!"
-  elsif answer.downcase == "exit"
+  elsif input.downcase == "exit"
     puts "Goodbye!"
   else
-    puts "Sorry! The computer guessed #{solution}."
+    puts "Sorry! The computer guessed #{answer}."
   end
 end
