@@ -1,6 +1,4 @@
 def run_guessing_game
-  puts "run_guessing_game"
-  
   solution = rand(1..6)
   #puts solution
   
