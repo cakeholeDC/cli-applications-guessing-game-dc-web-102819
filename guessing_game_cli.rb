@@ -9,7 +9,7 @@ def run_guessing_game
   
   elsif answer == solution.to_s 
     puts "You guessed the correct number!"
-  elsif answer.to_lowercase == "exit"
+  elsif answer.downcase == "exit"
     "Goodbye!"
   else
     "Sorry! You the computer guessed #{solution}."
